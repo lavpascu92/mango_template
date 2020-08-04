@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FONT AWSOME ICONS -->
     <script src="https://kit.fontawesome.com/0228273b28.js" crossorigin="anonymous"></script>
+    <!-- NORMALIZE CSS -->
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
     <!-- CSS STYLES -->
     <link rel="stylesheet" href="./src/assets/css/style.css">
     <title>Dribble template</title>
@@ -14,142 +16,157 @@
 
 <body>
 
-    <header id="main_header" class="Header">
-        <nav id="main-nav" class="Header-nav">
-            <ul class="Header-nav-ul">
-                <div class="Header-links-left">
-                    <li class="Header-li Header-li-right"><a href="#" class="Header-links">Menu</a></li>
-                    <li class="Header-li"><a href="#" class="Header-links">Edits</a></li>
-                    <li class="Header-li"><a href="#" class="Header-links">Sale</a></li>
-                </div>
+    <main class="Main-container">
 
-                <div class="Header-logo-center">
-                    <li class="Header-li">
-                        <a href="#" class="Header-links">
-                            <img class='Header-logo' src="./src/assets/media/imgs/mango_logo.png" alt="Mango logo">
-                        </a>
-                    </li>
-                </div>
-                <div class="Header-links-right">
-                    <li class="Header-li"><a href="#" class="Header-links">search</a></li>
-                    <li class="Header-li"><a href="#" class="Header-links"><i class="far fa-heart"></i></a></li>
-                    <li class="Header-li Header-li-left"><a href="#" class="Header-links">Bag: <span
-                                class="Header-nr-change">0</span></a></li>
-                </div>
+        <div class="Container-1">
 
-            </ul>
-        </nav>
-    </header>
-    <!-- GENDER SELECTION  -->
-    <section id="gender-section" class="Gender">
-        <ul class="Gender-ul">
-            <li class="Gender-li"><a href="#" class="Gender-links">Men</a></li>
-            <li class="Gender-li"><a href="#" class="Gender-links">Women</a></li>
-            <li class="Gender-li"><a href="#" class="Gender-links">Kids</a></li>
-            <li class="Gender-li"><a href="#" class="Gender-links">New</a></li>
-            <li class="Gender-li Gender-li-username"><a href="#" class="Gender-links">Violeta</a></li>
-        </ul>
-        <!-- <hr class="Gender-long-hr"> -->
-        <hr class="Gender-small-hr Gender-active">
-    </section>
+            <header id="Main_header" class="Header">
+                <nav id="Main-nav" class="Header-nav">
+                    <ul class="Header-nav-ul">
+                        <div class="Header-links-left">
+                            <li class="Header-li Header-li-right"><a href="#" class="Header-links">Menu</a></li>
+                            <li class="Header-li"><a href="#" class="Header-links">Edits</a></li>
+                            <li class="Header-li"><a href="#" class="Header-links">Sale</a></li>
+                        </div>
 
-    <!-- GRID SECTION WITH CLOTHES ITEMS -->
-    <section id="clothes-section" class="Clothes">
-        <div class="Clothes-items Clothes-back">
-            <a href="#" class="Clothes-back-link">Back to Catalogue</a>
+                        <div class="Header-logo-center">
+                            <li class="Header-li">
+                                <a href="#" class="Header-links">
+                                    <img class='Header-logo' src="./src/assets/media/imgs/mango_logo.png"
+                                        alt="Mango logo">
+                                </a>
+                            </li>
+                        </div>
+                        <div class="Header-links-right">
+                            <li class="Header-li"><a href="#" class="Header-links">search</a></li>
+                            <li class="Header-li"><a href="#" class="Header-links"><i class="far fa-heart"></i></a></li>
+                            <li class="Header-li Header-li-left"><a href="#" class="Header-links">Bag: <span
+                                        class="Header-nr-change">0</span></a></li>
+                        </div>
+
+                    </ul>
+                </nav>
+            </header>
         </div>
 
-        <div class="Clothes-items Clothes-description">
-            <div class="Clothes-title">
-                <div class="Clothes-title-left">
-                    <p>New Now</p>
-                    <h2>The blucher from split leather chunky</h2>
-                    <p>APT.655468451-LAND-LH</p>
+        <div class="Container-2 Border-bottom">
+            <!-- GENDER SELECTION  -->
+            <section id="Gender-section" class="Gender">
+                <ul class="Gender-ul">
+                    <li class="Gender-li"><a href="#" class="Gender-links">Men</a></li>
+                    <li class="Gender-li"><a href="#" class="Gender-links">Women</a></li>
+                    <li class="Gender-li"><a href="#" class="Gender-links">Kids</a></li>
+                    <li class="Gender-li"><a href="#" class="Gender-links">New</a></li>
+                    <li class="Gender-li Gender-li-username"><a href="#" class="Gender-links">Violeta</a></li>
+                </ul>
+                <hr class="Gender-small-hr Gender-active">
+            </section>
+        </div>
+
+        <div class="Container-3 Border-top Border-bottom">
+
+            <div class="Container-3-1">
+                <div class="Back-to-catalogue-up Border-right Border-bottom">
+                    <a href="#">Back to Catalogue</a>
                 </div>
-                <div class="Clothes-title-right">
-                    <p>Price</p>
-                    <h2>8 499 rub.</h2>
-                    <p>
-                        <span>Shoes</span>
-                        <span>Accesories</span>
-                    </p>
+                <div class="Share-link-down Border-right Border-bottom">
+                    <a href="#"><i class="fas fa-share-alt"></i></a>
                 </div>
             </div>
-            <div class="Clothes-colors">
-                <div id="color_gray"></div>
-                <div id="color_brown"></div>
-            </div>
-            <div class="Clothes-slideshow">
-                <i class="fas fa-caret-left"></i>
-                <img src="./src/assets/media/imgs/shoe.png" alt="gray shoe">
-                <i class="fas fa-caret-right"></i>
-            </div>
 
-            <div class="Clothes-reviews">
-                <div class="Clothes-reviews-stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <p><span>6</span> reviews</p>
+            <div class="Container-3-2 Border-right">
+                <div class="Clothes-detailes-up Border-bottom">
+
+                    <div class="Clothes-items Clothes-description">
+                        <div class="Clothes-title">
+                            <div class="Clothes-title-left">
+                                <p>New Now</p>
+                                <h2>The blucher from split leather chunky</h2>
+                                <p>APT.655468451-LAND-LH</p>
+                            </div>
+                            <div class="Clothes-title-right">
+                                <p>Price</p>
+                                <h2>8 499 rub.</h2>
+                                <p>
+                                    <span>Shoes</span>
+                                    <span>Accesories</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="Clothes-colors">
+                            <div id="color-gray"></div>
+                            <div id="color-brown"></div>
+                        </div>
+
+                        <div class="Clothes-slideshow">
+                            <i class="fas fa-caret-left"></i>
+                            <img src="./src/assets/media/imgs/shoe.png" alt="gray shoe">
+                            <i class="fas fa-caret-right"></i>
+                        </div>
+
+                        <div class="Clothes-reviews">
+                            <div class="Clothes-reviews-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <p><span>6</span> reviews</p>
+                            </div>
+
+                            <div class="Clothes-reviews-slideshow-circles">
+                                <div class="Circle"></div>
+                                <div id="Active" class="Circle Active"></div>
+                                <div class="Circle"></div>
+                                <div class="Circle"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="Clothes-reviews-slideshow-circles">
-                    <div class="circle"></div>
-                    <div id="active" class="circle active"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
+
+                <div class="Clothes-size-down">
+                    <div class="Clothes-size-picking Border-right">
+                        <label for="shoe-size" class="Buy-size-label">Select size: </label>
+                        <select required name="shoe-sizes" id="shoe-size" class="Buy-select-menu">
+                            <option value="38EU">38 EU</option>
+                            <option value="39EU">39 EU</option>
+                            <option value="40EU">40 EU</option>
+                            <option value="41EU">41 EU</option>
+                        </select>
+                    </div>
+                    <div class="Clothes-size-loving Border-right">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div class="Clothes-size-buying">
+                        <button>BUY</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Container-3-3">
+                <div class="Choose-up Border-bottom">
+                    <div class="Choose-similar Border-right">
+                        <a href="#" class="Clothes-similar-link">Similar model</a>
+                    </div>
+                    <div class="Choose-complete">
+                        <a href="#" class="Clothes-complete-link">Complete the look</a>
+                    </div>
+                </div>
+                <div class="Choose-delivery-down">
+                    <label for="delivery" class="Buy-delivery-label">Details, delivery & returns </label>
+                    <select required name="delivery_options" id="delivery" class="Buy-delivery-menu">
+                        <option value=""></option>
+                        <option value="Free delivery">Free delivery</option>
+                        <option value="10$">10$ delivery - 2 weeks</option>
+                        <option value="25$">24$ delivery - 3 days</option>
+                        <option value="Return item">Return item</option>
+                    </select>
                 </div>
             </div>
         </div>
+    </main>
 
-        <div class="Clothes-items Clothes-similar">
-            <a href="#" class="Clothes-similar-link">Similar model</a>
-        </div>
-
-        <div class="Clothes-items Clothes-complete">
-            <a href="#" class="Clothes-complete-link">Complete the look</a>
-        </div>
-    </section>
-    <!-- SIZE SELECTION & BUY SECTION -->
-    <section class="Buy">
-
-        <div class="Buy-items Buy-share-icon">
-            <a href="#"><i class="fas fa-share-alt"></i></a>
-        </div>
-
-
-        <div class="Buy-items Buy-select-size">
-            <label for="shoe-size" class="Buy-size-label">Select size: </label>
-            <select required name="shoe-sizes" id="shoe-size" class="Buy-select-menu">
-                <option value="38EU">38 EU</option>
-                <option value="39EU">39 EU</option>
-                <option value="40EU">40 EU</option>
-                <option value="41EU">41 EU</option>
-            </select>
-        </div>
-
-        <div class="Buy-items Buy-heart-icon">
-            <a href="#"><i class="far fa-heart"></i></a>
-        </div>
-
-        <div class="Buy-items Buy-buy-btn">
-            <button>BUY</button>
-        </div>
-
-
-
-        <div class="Buy-items Buy-delivery">
-            <label for="delivery" class="Buy-delivery-label">Details, delivery & returns </label>
-            <select required name="delivery_options" id="delivery" class="Buy-delivery-menu">
-                <option value=""></option>
-                <option value="Free delivery">Free delivery</option>
-                <option value="10$">10$ delivery - 2 weeks</option>
-                <option value="25$">24$ delivery - 3 days</option>
-                <option value="Return item">Return item</option>
-            </select>
-        </div>
-    </section>
 </body>
 
 </html>
