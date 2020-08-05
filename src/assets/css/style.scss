@@ -178,10 +178,11 @@ ul.Header-nav-ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin-top: 1.25rem;
-    margin-bottom: 1.85rem;
-    margin-left: 1.85rem;
-    margin-right: 1.85rem;
+    padding: 15px;
+    // margin-top: 1.25rem;
+    // margin-bottom: 1.85rem;
+    // margin-left: 1.85rem;
+    // margin-right: 1.85rem;
 
     div {
         display: flex;
@@ -232,7 +233,7 @@ ul.Gender-ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 0 1.85rem;
+    padding: 15px;
     @include font_catamaran_regular($font_S);
 
     li.Gender-li a {
@@ -249,7 +250,7 @@ hr.Gender-small-hr {
     width: 10rem;
     border: 1px solid black;
     position: absolute;
-    top: 49px;
+    top: 50px;
 
 }
 //GENDER SECTION END//

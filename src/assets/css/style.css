@@ -279,10 +279,7 @@ ul.Header-nav-ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-  margin-top: 1.25rem;
-  margin-bottom: 1.85rem;
-  margin-left: 1.85rem;
-  margin-right: 1.85rem;
+  padding: 15px;
 }
 
 ul.Header-nav-ul div {
@@ -337,7 +334,7 @@ ul.Gender-ul {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style-type: none;
-  padding: 0 1.85rem;
+  padding: 15px;
   font-family: 'Catamaran', sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -356,7 +353,7 @@ hr.Gender-small-hr {
   width: 10rem;
   border: 1px solid black;
   position: absolute;
-  top: 49px;
+  top: 50px;
 }
 
 .Clothes-title {
