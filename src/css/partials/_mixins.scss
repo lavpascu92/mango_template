@@ -1,0 +1,29 @@
+//************
+//FONTS MIXINS
+//************
+@mixin font_catamaran_thin($font_size) {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 100;
+    font-size: $font_size;
+}
+
+@mixin font_catamaran_light($font_size) {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 200;
+    font-size: $font_size;
+}
+
+@mixin font_catamaran_regular($font_size) {
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    font-size: $font_size;
+}
+
+//*************
+//MEDIA QUERIES
+//*************
+@mixin media_query($break_point) {
+    @media(min-width: #{$break_point}) {
+        @content;
+    }
+}
