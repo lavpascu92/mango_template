@@ -155,7 +155,9 @@ body {
 }
 
 .main-back-to-catalogue {
-  height: 85%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,7 +183,6 @@ body {
 }
 
 .main-back-to-share {
-  height: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,7 +195,14 @@ body {
 }
 
 .share-link {
+  height: 76px;
   color: #212327;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .main-clothes {
@@ -209,7 +217,9 @@ body {
 }
 
 .main-clothes-up {
-  height: 85%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,6 +315,9 @@ body {
 }
 
 .clothes-up-slideshow {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -377,7 +390,6 @@ body {
 }
 
 .main-clothes-down {
-  height: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,6 +448,7 @@ body {
 }
 
 .main-clothes-down-buying button {
+  height: 76px;
   border: none;
   outline: none;
   font-family: 'Catamaran', sans-serif;
@@ -473,10 +486,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .main-delivery-up-similar {
-  height: 100%;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -490,7 +505,6 @@ body {
 }
 
 .main-delivery-up-complete {
-  height: 100%;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
