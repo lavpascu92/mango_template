@@ -475,10 +475,16 @@ body {
 
 .main-delivery {
   width: 44%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main-delivery-up {
-  height: 85%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -523,7 +529,6 @@ body {
 
 .main-delivery-down {
   padding: 0 20px;
-  height: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -541,6 +546,7 @@ body {
 }
 
 .main-delivery-down-menu {
+  height: 76px;
   border: none;
   outline: none;
   font-size: 0.85rem;
